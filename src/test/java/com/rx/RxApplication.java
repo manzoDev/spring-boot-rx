@@ -1,13 +1,13 @@
-package com.rx.netty;
+package com.rx;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootRxApplication {
+public class RxApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootRxApplication.class, args);
+		SpringApplication.run(RxApplication.class, args);
 	}
-
 }
